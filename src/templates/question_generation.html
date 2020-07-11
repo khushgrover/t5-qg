@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>T5 question generation</title>
+</head>
+
+<body>
+  <h1>Question Generation</h1>
+  <div class="row">
+    <form action='/predict' method="post">
+      <p>Enter Your Text Here</p>
+      <textarea name="text" rows="4" cols="50"></textarea>
+      <br>
+      <input type="submit" class="btn-info" value="Generate Questons">
+    </form>
+  </div>
+  <br>
+  {{pred}}
+</body>
+
+</html>
